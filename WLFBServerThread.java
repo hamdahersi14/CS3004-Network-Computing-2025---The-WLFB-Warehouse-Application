@@ -1,3 +1,6 @@
+/*
+Handles communication with a single client. Reads commands from the client, forwards them to SharedActionState for processing, and sends responses back. Shows how threads interact with shared state while maintaining synchronization.
+*/
 
 import java.net.*;
 import java.io.*;
@@ -53,4 +56,5 @@ public class WLFBServerThread extends Thread {
       e.printStackTrace();
     }
   }
+
 }
