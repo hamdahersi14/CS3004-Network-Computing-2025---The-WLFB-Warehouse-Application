@@ -1,3 +1,7 @@
+/*
+Main server class. Listens for TCP client connections and assigns a designated WLFBServerThread for each client. Passes a shared SharedActionState object to all threads to manage the warehouse state safely
+*/
+
 import java.net.*;
 import java.io.*;
 
@@ -39,4 +43,5 @@ public class WLFBServer {
     }
     ActionServerSocket.close();
   }
+
 }
