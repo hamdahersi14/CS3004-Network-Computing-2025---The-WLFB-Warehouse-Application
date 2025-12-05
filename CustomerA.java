@@ -1,3 +1,7 @@
+/*
+Client program for Customer A. Connects to the server, sends commands to buy items or check inventory, and receives responses. Demonstrates user interaction, command formatting, and participation in a concurrent, networked system.
+*/
+
 import java.io.*;
 import java.net.*;
 
@@ -74,3 +78,4 @@ public class CustomerA {
        // ActionClientSocket.close();
     }
 }
+
