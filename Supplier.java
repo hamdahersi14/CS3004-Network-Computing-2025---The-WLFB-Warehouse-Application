@@ -1,3 +1,8 @@
+/*
+Client program for the supplier. Connects to the server, sends commands to add stock or check inventory, and receives responses. Demonstrates a simplee client design where networking is separate from shared-state management.
+*/
+
+
 import java.io.*;
 import java.net.*;
 
@@ -87,3 +92,4 @@ public class Supplier {
        // ActionClientSocket.close();
     }
 }
+
