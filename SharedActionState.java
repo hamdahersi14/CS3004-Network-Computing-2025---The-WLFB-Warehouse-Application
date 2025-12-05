@@ -1,3 +1,8 @@
+/*
+Manages the warehouse inventory of apples and oranges. Provides synchronized methods to safely update and read stock, validates inputs, and prevents race conditions in a concurrent environment.
+*/
+
+
 import java.net.*;
 import java.io.*;
 
@@ -164,4 +169,5 @@ public class SharedActionState{
             		}
             	
             }
+
 
