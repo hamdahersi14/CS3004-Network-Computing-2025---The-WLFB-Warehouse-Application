@@ -1,3 +1,8 @@
+/*
+Client program for Customer B. Works the same way as Customer A, sending buy and check_stock commands to the server. Shows how multiple clients operate concurrently in a networked application.
+*/
+
+
 import java.io.*;
 import java.net.*;
 
@@ -70,3 +75,4 @@ public class CustomerB {
        // ActionClientSocket.close();
     }
 }
+
